@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+_design/
+/src-tauri/target/
+/src-tauri/gen/

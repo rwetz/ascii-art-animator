@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- App background — same rounded square as original -->
+  <rect width="1024" height="1024" rx="220" fill="#0d0d14"/>
+
+  <!-- Screen bezel -->
+  <rect x="80" y="200" width="864" height="624" rx="32" fill="#1a1a2e"/>
+  <!-- Screen inner -->
+  <rect x="112" y="232" width="800" height="560" rx="16" fill="#0f0f1e"/>
+
+  <!-- "AAA" rendered in ASCII block-character art style — 3 lines, 3 A's each -->
+  <!-- A shape: top ▄▀▄ / middle █▀█ / bottom ▀ ▀ -->
+  <text font-family="'Courier New', Courier, monospace" font-size="92" fill="#e86f3a" font-weight="bold" text-anchor="middle">
+    <tspan x="512" y="418">▄▀▄ ▄▀▄ ▄▀▄</tspan>
+    <tspan x="512" y="526">█▀█ █▀█ █▀█</tspan>
+    <tspan x="512" y="634">▀ ▀ ▀ ▀ ▀ ▀</tspan>
+  </text>
+
+  <!-- Blinking cursor on the line below, at the left text margin -->
+  <rect x="194" y="654" width="46" height="62" rx="4" fill="#e86f3a" opacity="0.9"/>
+
+  <!-- Film-strip timeline dots at bottom — same positions as original -->
+  <circle cx="280" cy="740" r="22" fill="#e86f3a" opacity="0.5"/>
+  <circle cx="360" cy="740" r="22" fill="#e86f3a" opacity="0.7"/>
+  <circle cx="440" cy="740" r="22" fill="#e86f3a"/>
+  <circle cx="520" cy="740" r="22" fill="#e86f3a"/>
+  <circle cx="600" cy="740" r="22" fill="#e86f3a"/>
+  <circle cx="680" cy="740" r="22" fill="#e86f3a" opacity="0.7"/>
+  <circle cx="760" cy="740" r="22" fill="#e86f3a" opacity="0.5"/>
+</svg>
