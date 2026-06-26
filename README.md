@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/icon.svg" width="120" alt="ASCII Art Animator icon" />
+</p>
+
 # ASCII Art Animator
 
 A desktop app for creating ASCII art animations — frame by frame, with a timeline, playback, and export to GIF, ANSI shell script, or self-running Rust binary.
